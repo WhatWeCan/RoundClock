@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="RoundClockView">
+        <attr name="circleWidth" format="integer" />
+        <attr name="smallScale" format="integer" />
+        <attr name="bigScale" format="integer" />
+        <attr name="sScaleWidth" format="integer" />
+        <attr name="bScaleWidth" format="integer" />
+        <attr name="secWidth" format="integer" />
+        <attr name="miWidth" format="integer" />
+        <attr name="houWidth" format="integer" />
+        <attr name="timeSize" format="dimension|reference" />
+        <attr name="scaleColor" format="color|reference" />
+        <attr name="timeColor" format="color|reference" />
+        <attr name="secColor" format="color|reference" />
+        <attr name="miColor" format="color|reference" />
+        <attr name="houColor" format="color|reference" />
+        <attr name="secHeight" format="dimension|reference" />
+        <attr name="miHeight" format="dimension|reference" />
+        <attr name="houHeight" format="dimension|reference" />
+        <attr name="nowTimeTxtSize" format="dimension|reference" />
+        <attr name="nowTimeTxtColor" format="color|reference" />
+
+    </declare-styleable>
+
+</resources>
