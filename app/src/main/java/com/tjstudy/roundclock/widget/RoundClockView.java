@@ -109,6 +109,7 @@ public class RoundClockView extends View {
         mNowTimeTxtSize = typedArray.getDimension(R.styleable.RoundClockView_nowTimeTxtSize, 26);
         //当前时间文本字体颜色
         mNowTimeTxtColor = typedArray.getColor(R.styleable.RoundClockView_nowTimeTxtColor, Color.BLACK);
+        typedArray.recycle();
     }
 
     private void initPaint() {
